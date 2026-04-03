@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QueueImplementation",
+            "request": "launch",
+            "mainClass": "QueueImplementation",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "DynamicStackimp",
+            "request": "launch",
+            "mainClass": "DynamicStackimp",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "StackImplementation",
+            "request": "launch",
+            "mainClass": "StackImplementation",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "DLimplementation",
+            "request": "launch",
+            "mainClass": "DLimplementation",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "LLimplement",
+            "request": "launch",
+            "mainClass": "LLimplement",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "Nknights",
+            "request": "launch",
+            "mainClass": "Nknights",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "MazeWithObstacle",
+            "request": "launch",
+            "mainClass": "leetcode.MazeWithObstacle",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathCountPrint",
+            "request": "launch",
+            "mainClass": "leetcode.MazePathCountPrint",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathCount",
+            "request": "launch",
+            "mainClass": "leetcode.MazePathCount",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "Permutationarraylist",
+            "request": "launch",
+            "mainClass": "Permutationarraylist",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "PERMUTATION",
+            "request": "launch",
+            "mainClass": "PERMUTATION",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "subsetswithoutrecur",
+            "request": "launch",
+            "mainClass": "subsetswithoutrecur",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "subsetarray",
+            "request": "launch",
+            "mainClass": "subsetarray",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "subsets",
+            "request": "launch",
+            "mainClass": "subsets",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "StringSkip",
+            "request": "launch",
+            "mainClass": "StringSkip",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "Stringwork",
+            "request": "launch",
+            "mainClass": "Stringwork",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "SubsetsRecursive",
+            "request": "launch",
+            "mainClass": "SubsetsRecursive",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "selectionSortRecurr",
+            "request": "launch",
+            "mainClass": "selectionSortRecurr",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "bubblesortrecur",
+            "request": "launch",
+            "mainClass": "bubblesortrecur",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "patternRecurr",
+            "request": "launch",
+            "mainClass": "patternRecurr",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "stream",
+            "request": "launch",
+            "mainClass": "advanceJava.stream",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "RotatedRecur",
+            "request": "launch",
+            "mainClass": "RotatedRecur",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "isSorted",
+            "request": "launch",
+            "mainClass": "isSorted",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "reverseRecur",
+            "request": "launch",
+            "mainClass": "reverseRecur",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
