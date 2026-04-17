@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeimp",
+            "request": "launch",
+            "mainClass": "BinaryTreeimp",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
             "name": "QueueImplementation",
             "request": "launch",
             "mainClass": "QueueImplementation",
