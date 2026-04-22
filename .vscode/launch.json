@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BSTimp",
+            "request": "launch",
+            "mainClass": "BSTimp",
+            "projectName": "java_2bc801f1"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeimp",
             "request": "launch",
             "mainClass": "BinaryTreeimp",
