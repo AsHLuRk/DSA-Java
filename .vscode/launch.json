@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AVLimp",
+            "request": "launch",
+            "mainClass": "AVLimp",
+            "projectName": "java_3d6d28ea"
+        },
+        {
+            "type": "java",
             "name": "BSTimp",
             "request": "launch",
             "mainClass": "BSTimp",
