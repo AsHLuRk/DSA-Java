@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeimp",
+            "request": "launch",
+            "mainClass": "BinaryTreeimp",
+            "projectName": "java_3d6d28ea"
+        },
+        {
+            "type": "java",
+            "name": "SegmentTreeimp",
+            "request": "launch",
+            "mainClass": "SegmentTreeimp",
+            "projectName": "java_3d6d28ea"
+        },
+        {
+            "type": "java",
             "name": "AVLimp",
             "request": "launch",
             "mainClass": "AVLimp",
