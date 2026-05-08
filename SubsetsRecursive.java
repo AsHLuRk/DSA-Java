@@ -12,7 +12,7 @@ public class SubsetsRecursive {
     return finalans;
   }
   
-  subset(arr , ans, finalans , a-1 ).add()
+  subset(arr , ans, finalans , a-1 ).add();
  }
      
 }
