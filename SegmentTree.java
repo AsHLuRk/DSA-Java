@@ -85,6 +85,9 @@ public Node constructTree(int arr[] , int start , int end){
     }
     if(start>=node.Startindex && end<=node.Endindex){
        return node.data;
+       public static void main(String[] args) {
+        
+       }
     }
 
     return sum(node.left, start, end)+sum(node.right, start, end);
