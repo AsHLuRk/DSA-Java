@@ -4,7 +4,7 @@ class Solution {
             return new ArrayList<>();
         }
         Set<Integer> set = new HashSet<>();
-        List<String> ans = new ArrayList<>();
+        Set<String> ans = new HashSet<>();
         Map<Character, Integer> map = new HashMap<>();
         map.put('A',0);
         map.put('C',1);
@@ -20,14 +20,13 @@ class Solution {
         sum = (int)(sum - Math.pow(4,9)*map.get(s.charAt(i-1)))*4 + map.get(s.charAt(i+9));
         if(set.contains(sum)){
             String subs = s.substring(i , i+10);
-            if(!ans.contains(subs)){
-                ans.add(subs);
-            }
+            ans.add(subs);
+            
         }
         else{
             set.add(sum);
         }
         }
-        return ans;
+        return new ArrayList<>(ans);
     }
 }
