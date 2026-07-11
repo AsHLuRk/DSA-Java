@@ -1,22 +1,30 @@
 class Solution {
     public int totalFruit(int[] fruits) {
-        Map<Integer, Integer> count = new HashMap<>();
-        int left = 0, maxLen = 0;
+        
+        int max_count=0;
+        int left =0;
+        Map<Integer, Integer> map = new HashMap<>();
 
-        for (int right = 0; right < fruits.length; right++) {
-            count.merge(fruits[right], 1, Integer::sum);
-
-            while (count.size() > 2) {
-                int leftFruit = fruits[left];
-                count.put(leftFruit, count.get(leftFruit) - 1);
-                if (count.get(leftFruit) == 0) {
-                    count.remove(leftFruit);
-                }
-                left++;
+        for(int right = 0; right<fruits.length; right++){
+            int item = fruits[right];
+            if(!map.containsKey(item)){
+                map.put(item ,0);
             }
+            map.put(item , map.get(item)+1);
+            
+            while(map.size()>2){
+            int leftitem = fruits[left];
+            if(map.get(leftitem)==1){
+                map.remove(leftitem);
+            }
+            else{
+                map.put(leftitem , map.get(leftitem)-1);
+            }
+            left++;
+           }
+            max_count = Math.max(max_count , right-left+1);
 
-            maxLen = Math.max(maxLen, right - left + 1);
         }
-        return maxLen;
+        return max_count;
     }
 }
