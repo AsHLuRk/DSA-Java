@@ -15,40 +15,16 @@
  */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
-        
-       if(root == null){
-        return true;
-       }
-
-       TreeNode left = root.left;
-       TreeNode right = root.right;
-
-       List<Integer> list1 = new ArrayList<>();
-       List<Integer> list2 = new ArrayList<>();
-       getList(left, list1);
-       getListright(right, list2);
-       System.out.println(list1);
-        System.out.println(list2);
-       return list1.equals(list2);
+        return checkans(root.left , root.right);
     }
-    public void getList(TreeNode node, List<Integer> list){
 
-        if(node==null){
-            list.add(101);
-            return;
-        }
-        list.add(node.val);
-        getList(node.left, list);
-        getList(node.right, list);
-    }
-    public void getListright(TreeNode node, List<Integer> list){
+    public boolean checkans(TreeNode rootleft , TreeNode rootright){
+      if(rootleft==null && rootright==null) return true;
 
-        if(node==null){
-            list.add(101);
-            return;
-        }
-        list.add(node.val);
-        getListright(node.right, list);
-        getListright(node.left, list);
+      if(rootleft==null || rootright==null) return false;
+     
+      return (rootleft.val==rootright.val) && checkans(rootleft.left , rootright.right) && checkans(rootleft.right , rootright.left);
+
+     
     }
 }
