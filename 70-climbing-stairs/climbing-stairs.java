@@ -1,19 +1,20 @@
 class Solution {
-    
-
     public int climbStairs(int n) {
-       int[] memo = new int[n+1];
-       Arrays.fill(memo, -1);
-       return countstairs(n , memo);
+      
+        int[] dp = new int[n+1];
+        return ways(n, dp);
+
     }
-    public int countstairs(int n , int[] memo){
-       if(n==1 || n==0){
-        return 1;
-       }
-       if(memo[n]!=-1){
-        return memo[n];
-       }
-       memo[n] = countstairs(n-1, memo) + countstairs(n-2, memo);
-       return memo[n];
+    public int ways(int n , int[] dp){
+
+        if(n<=2){
+            dp[n] = n;
+            return n;
+        }
+        if(dp[n]!=0){
+            return dp[n];
+        }
+        dp[n] = ways(n-1, dp)+ways(n-2,dp);
+        return dp[n];
     }
 }
